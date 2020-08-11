@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+.headerImg {
+    height: 80px;
+    width: 80px;
+}
+
+.navigationContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    list-style: none;
+}
+
+.navigationContainer li a {
+    padding: 1rem 1.5rem;
+}
+
+.navigationContainer li a:hover {
+    border: 1.5px solid #bbb;
+    padding: 1rem 1.5rem;
+}
