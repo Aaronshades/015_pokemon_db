@@ -5,8 +5,8 @@
 }
 
 @font-face {
-  font-family: 'Pokemon_Solid';
-  src: url('/Pokemon_Solid.ttf');
+  font-family: 'Pokemon_Hollow';
+  src: url('/Pokemon_Hollow.ttf');
 }
 
 html,
@@ -20,4 +20,13 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }

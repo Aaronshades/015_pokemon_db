@@ -8,7 +8,11 @@ const Header = () => {
     <header className={styles.header}>
       <Link href="/">
         <a>
-          <img className={styles.headerImg} src="/pikachu.png" alt="Pikachu" />
+          <img
+            className={styles.headerImg}
+            src="/images/pikachu.png"
+            alt="Pikachu"
+          />
         </a>
       </Link>
       <nav>

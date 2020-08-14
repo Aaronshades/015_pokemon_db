@@ -11,7 +11,11 @@ const Footer = () => {
         rel="noopener noreferrer"
       >
         Project found on{" "}
-        <img src="/github.svg" alt="Github Logo" className={styles.logo} />
+        <img
+          src="/images/github.svg"
+          alt="Github Logo"
+          className={styles.logo}
+        />
       </a>
       <a
         href="https://twitter.com/HaakonHelmen"
@@ -19,7 +23,11 @@ const Footer = () => {
         rel="noopener noreferrer"
       >
         My Twitter{" "}
-        <img src="/twitter.svg" alt="Twitter Logo" className={styles.logo} />
+        <img
+          src="/images/twitter.svg"
+          alt="Twitter Logo"
+          className={styles.logo}
+        />
       </a>
     </footer>
   );
